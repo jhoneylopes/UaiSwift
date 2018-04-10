@@ -1,22 +1,31 @@
-/*
+/*:
  Jhoney Lopes - ©2017
+ */
+/*:
+ # Diferença entre var e let
+ Qual é a diferença entre var e let?
  
- # A diferença entre var e let
- Qual é a diferença entre o charme e o funk? E entre o var e o let?
+    A principal diferença entre var e o let é a dinamicidade de cada um. O var é usado para quando se deseja que um valor sofra alterações ao longo do tempo (variável), e o let é utilizado para quando se deseja que este valor seja fixo (constante).
  
+ [Anterior](@previous)
  */
 
+//: Olár Mundo (Hello World!)
 
-// # Constante
+print("Hello World")
+
+//: Comentários
+
+// Isso é um comentário
+// Outro aqui :)
+
+//: Constante
 
 let nome: String = "Jhoney"
 print(nome)
-// nome = "João Roberto"
-// print(nome)
 
-//-----------------------------------------------------------//
 
-// # Variável
+//: Variável
 
 var apelido: String = "Jhow"
 print(apelido)
@@ -25,23 +34,17 @@ print(apelido)
 apelido = "JhowJhow"
 print(apelido)
 
-//-----------------------------------------------------------//
 
-// # Tipo implícito e explícito
+//: Tipo implícito e explícito
 
-// String
 let meuNome: String = "Jhoney"    // Explícito
 let meuApelido = "Jhow"           // Implícito
-
-// Numbers
 let idade: Int = 29               // Explícito
 let peso = 76                     // Implícito
 let altura: Double = 1.86         // Explícito
 
-//print("IMC: \(peso/(altura*altura))")
-
-/*
+/*:
  Dica: Explicit = "Syntactic sugar" (ou syntax). O Melzinho - É quando uma sintaxe dentro de uma linguagem de programação tem por finalidade tornar suas construções mais fáceis de serem lidas e expressas.
  */
 
-//-----------------------------------------------------------//
+//: [Próxima](@next)

@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios'>
-    <pages>
-        <page name='Aula 0 - Introdução'/>
-        <page name='Aula 1 - Diferença entre var e let'/>
-        <page name='Aula 2 - Opcionais em Swift'/>
-    </pages>
-</playground>
+<playground version='6.0' target-platform='ios' display-mode='raw'/>
